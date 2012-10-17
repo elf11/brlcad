@@ -1,0 +1,120 @@
+#include <iostream>
+#include <ctime>
+#include <btBulletDynamicsCommon.h>
+
+class Box
+{
+    btDiscreteDynamicsWorld* dynWorld;
+    btCollisionShape* boxShape;
+    btDefaultMotionState* ms;
+    btRigidBody* boxRigidBody;
+    btScalar id;
+    btScalar mass;
+    btVector3 size;
+public:
+	Box(btDiscreteDynamicsWorld* dw, btVector3 pos, btScalar id);
+	~Box();
+    void force(btVector3 f);
+    void draw();
+};
+
+Box::Box(btDiscreteDynamicsWorld* dw, btVector3 pos, btScalar id)
+{
+    dynWorld = dw;
+    size.setX(1);
+    size.setY(1);
+    size.setZ(1);
+    mass = 1;
+    Box::id = id;
+    boxShape = new btBoxShape(size);
+    ms = new btDefaultMotionState(btTransform(btQuaternion(0, 0, 0, 1), pos));
+    btVector3 boxInertia(0, 0, 0);
+    boxShape->calculateLocalInertia(mass, boxInertia);
+    btRigidBody::btRigidBodyConstructionInfo
+        boxRigidBodyCI(mass, ms, boxShape, boxInertia);
+    boxRigidBody = new btRigidBody(boxRigidBodyCI);
+    dynWorld->addRigidBody(boxRigidBody);
+    // Note: boxes should share one collision shape.
+}
+
+Box::~Box()
+{
+    dynWorld->removeRigidBody(boxRigidBody);
+    delete boxRigidBody->getMotionState();
+    delete boxRigidBody;
+    delete boxShape; // what if two boxes share collision shape?
+}
+
+void Box::force(btVector3 f)
+{
+    boxRigidBody->applyCentralForce(f);
+}
+
+void Box::draw()
+{
+    btTransform trans;
+    boxRigidBody->getMotionState()->getWorldTransform(trans);
+    std::cout << "Box " << id <<" has position (" << trans.getOrigin().getX()
+    << ", " << trans.getOrigin().getY() << ", " << trans.getOrigin().getZ()
+    << ")" << std::endl;
+}
+
+int main(int argc, char** argv)
+{
+   /*
+    * Setting up bullet.
+    */
+    btBroadphaseInterface* broadphase = new btDbvtBroadphase();
+    btDefaultCollisionConfiguration* collisionConfiguration
+        = new btDefaultCollisionConfiguration();
+    btCollisionDispatcher* dispatcher
+        = new btCollisionDispatcher(collisionConfiguration);
+    btSequentialImpulseConstraintSolver* solver
+        = new btSequentialImpulseConstraintSolver;
+    btDiscreteDynamicsWorld* dynamicsWorld
+        = new btDiscreteDynamicsWorld(dispatcher,broadphase,solver,
+        collisionConfiguration);
+    dynamicsWorld->setGravity(btVector3(0, 0, 0));
+
+   /*
+    * Adding shapes.
+    */
+    Box* b1 = new Box(dynamicsWorld,btVector3(0, 0, 0), 1);
+    Box* b2 = new Box(dynamicsWorld,btVector3(10, 0, 0), 2);
+    b2->force(btVector3(-1000, 0, 0)); // push towards the other box.
+
+   /*
+    * Main loop.
+    */
+    clock_t then = clock();
+    int interval = CLOCKS_PER_SEC / 5; // denominator is steps per second.
+    bool quit = false;
+
+    while(!quit)
+    {
+        if (clock() - then >= interval)
+        {
+            then = clock();
+
+            // Moving stuff around.
+            dynamicsWorld->stepSimulation(1/60.f,10);
+
+            // Drawing stuff.
+            b1->draw();
+            b2->draw();
+        }
+    }
+
+   /*
+    * Cleaning up.
+    */
+    delete b1;
+    delete b2;
+    delete dynamicsWorld;
+    delete solver;
+    delete collisionConfiguration;
+    delete dispatcher;
+    delete broadphase;
+    return 0;
+}
+
