@@ -1,52 +1,342 @@
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (0.000000,0.000000,0.000000) point 2 = (0.000000, 0.000000, 0.000000) point 3 = (0.000000,0.000000,0.000000) point 4 = (0.000000, 0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007813, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
-point 1 = (-0.007813,-0.007813,-0.007812) point 2 = (-0.007812, -0.007812, -0.007813) point 3 = (-0.007812,-0.007813,-0.000000) point 4 = (-0.000000, -0.000000, 0.000000)
+Simulation step is 0
+Simulation step is 1
+Simulation step is 2
+Simulation step is 3
+Simulation step is 4
+Simulation step is 5
+Simulation step is 6
+Simulation step is 7
+Simulation step is 8
+Simulation step is 9
+Simulation step is 10
+Simulation step is 11
+Simulation step is 12
+Simulation step is 13
+Simulation step is 14
+Simulation step is 15
+Simulation step is 16
+Simulation step is 17
+Simulation step is 18
+Simulation step is 19
+Simulation step is 20
+Simulation step is 21
+Simulation step is 22
+Simulation step is 23
+Simulation step is 24
+Simulation step is 25
+Simulation step is 26
+Simulation step is 27
+Simulation step is 28
+Simulation step is 29
+Simulation step is 30
+Simulation step is 31
+Simulation step is 32
+Simulation step is 33
+Simulation step is 34
+Simulation step is 35
+Simulation step is 36
+Simulation step is 37
+Simulation step is 38
+Simulation step is 39
+Simulation step is 40
+Simulation step is 41
+Simulation step is 42
+Simulation step is 43
+Simulation step is 44
+Simulation step is 45
+Simulation step is 46
+Simulation step is 47
+Simulation step is 48
+Simulation step is 49
+Simulation step is 50
+Simulation step is 51
+Simulation step is 52
+Simulation step is 53
+Simulation step is 54
+Simulation step is 55
+Simulation step is 56
+Simulation step is 57
+Simulation step is 58
+Simulation step is 59
+Simulation step is 60
+Simulation step is 61
+Simulation step is 62
+Simulation step is 63
+Simulation step is 64
+Simulation step is 65
+Simulation step is 66
+Simulation step is 67
+Simulation step is 68
+Simulation step is 69
+Simulation step is 70
+Simulation step is 71
+Simulation step is 72
+Simulation step is 73
+Simulation step is 74
+Simulation step is 75
+Simulation step is 76
+Simulation step is 77
+Simulation step is 78
+Simulation step is 79
+Simulation step is 80
+Simulation step is 81
+Simulation step is 82
+Simulation step is 83
+Simulation step is 84
+Simulation step is 85
+Simulation step is 86
+Simulation step is 87
+Simulation step is 88
+Simulation step is 89
+Simulation step is 90
+Simulation step is 91
+Simulation step is 92
+Simulation step is 93
+Simulation step is 94
+Simulation step is 95
+Simulation step is 96
+Simulation step is 97
+Simulation step is 98
+Simulation step is 99
+Simulation step is 100
+Simulation step is 101
+Simulation step is 102
+Simulation step is 103
+Simulation step is 104
+Simulation step is 105
+Simulation step is 106
+Simulation step is 107
+Simulation step is 108
+point A = (-1.000000,1.000000,-1.000000) point B = (-1.000000,0.992222,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.007778
+point A = (-1.000000,1.000000,1.000000) point B = (-1.000000,0.992222,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.007778
+point A = (1.000000,1.000000,1.000000) point B = (1.000000,0.992222,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.007778
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.992222,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.007778
+Simulation step is 109
+Simulation step is 110
+Simulation step is 111
+Simulation step is 112
+Simulation step is 113
+Simulation step is 114
+Simulation step is 115
+Simulation step is 116
+Simulation step is 117
+Simulation step is 118
+Simulation step is 119
+Simulation step is 120
+Simulation step is 121
+Simulation step is 122
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.993775,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.006225
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.993773,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.006227
+point A = (0.999999,1.000000,0.999999) point B = (0.999999,0.993782,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.006218
+point A = (1.000000,1.000000,-1.000001) point B = (1.000000,0.993784,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.006216
+Simulation step is 123
+Simulation step is 124
+Simulation step is 125
+Simulation step is 126
+Simulation step is 127
+Simulation step is 128
+Simulation step is 129
+Simulation step is 130
+Simulation step is 131
+Simulation step is 132
+Simulation step is 133
+Simulation step is 134
+Simulation step is 135
+Simulation step is 136
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.995020,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.004980
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.995018,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.004982
+point A = (0.999999,1.000000,0.999999) point B = (0.999999,0.995026,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.004974
+point A = (1.000000,1.000000,-1.000001) point B = (1.000000,0.995028,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.004972
+Simulation step is 137
+Simulation step is 138
+Simulation step is 139
+Simulation step is 140
+Simulation step is 141
+Simulation step is 142
+Simulation step is 143
+Simulation step is 144
+Simulation step is 145
+Simulation step is 146
+Simulation step is 147
+Simulation step is 148
+Simulation step is 149
+Simulation step is 150
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.996015,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003985
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.996014,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003986
+point A = (0.999999,1.000000,1.000000) point B = (0.999999,0.996022,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003978
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.996023,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003977
+Simulation step is 151
+Simulation step is 152
+Simulation step is 153
+Simulation step is 154
+Simulation step is 155
+Simulation step is 156
+Simulation step is 157
+Simulation step is 158
+Simulation step is 159
+Simulation step is 160
+Simulation step is 161
+Simulation step is 162
+Simulation step is 163
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.996812,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003188
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.996811,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003189
+point A = (0.999999,1.000000,1.000000) point B = (0.999999,0.996818,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003182
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.996819,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.003181
+Simulation step is 164
+Simulation step is 165
+Simulation step is 166
+Simulation step is 167
+Simulation step is 168
+Simulation step is 169
+Simulation step is 170
+Simulation step is 171
+Simulation step is 172
+Simulation step is 173
+Simulation step is 174
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.997449,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002551
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.997448,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002552
+point A = (0.999999,1.000000,1.000000) point B = (0.999999,0.997455,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002545
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.997456,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002544
+Simulation step is 175
+Simulation step is 176
+Simulation step is 177
+Simulation step is 178
+Simulation step is 179
+Simulation step is 180
+Simulation step is 181
+Simulation step is 182
+Simulation step is 183
+Simulation step is 184
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.997959,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002041
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.997958,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002042
+point A = (0.999999,1.000000,1.000000) point B = (0.999999,0.997964,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002036
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.997966,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.002034
+Simulation step is 185
+Simulation step is 186
+Simulation step is 187
+Simulation step is 188
+Simulation step is 189
+Simulation step is 190
+Simulation step is 191
+Simulation step is 192
+Simulation step is 193
+Simulation step is 194
+Simulation step is 195
+Simulation step is 196
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.998367,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001633
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.998366,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001634
+point A = (0.999999,1.000000,1.000000) point B = (0.999999,0.998372,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001628
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.998373,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001627
+Simulation step is 197
+Simulation step is 198
+Simulation step is 199
+Simulation step is 200
+Simulation step is 201
+Simulation step is 202
+Simulation step is 203
+Simulation step is 204
+Simulation step is 205
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.998693,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001307
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.998692,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001308
+point A = (0.999999,1.000000,1.000000) point B = (0.999999,0.998698,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001302
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.998699,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001301
+Simulation step is 206
+Simulation step is 207
+Simulation step is 208
+Simulation step is 209
+Simulation step is 210
+Simulation step is 211
+Simulation step is 212
+Simulation step is 213
+Simulation step is 214
+Simulation step is 215
+Simulation step is 216
+point A = (-1.000000,1.000000,-1.000001) point B = (-1.000000,0.998954,-1.000001)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001046
+point A = (-1.000001,1.000000,0.999999) point B = (-1.000001,0.998953,0.999999)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001047
+point A = (0.999999,1.000000,1.000000) point B = (0.999999,0.998959,1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001041
+point A = (1.000000,1.000000,-1.000000) point B = (1.000000,0.998960,-1.000000)
+normal from B to A is = (-0.000000,-1.000000,-0.000000)
+the penetration distance is -0.001040
+Simulation step is 217
+Simulation step is 218
+Simulation step is 219
+Simulation step is 220
+Simulation step is 221

@@ -1,0 +1,1000 @@
+ 1014  grep -n -i "define struct rt_db_internal" *.h *.c
+ 1015  grep -n -i "struct rt_db_internal" *.h *.c
+ 1016  make libged > ~/general.txt
+ 1017  cd ~/brlcad
+ 1018  bin/mged
+ 1019  make libged > ~/general.txt
+ 1020  bin/mged
+ 1021  make libged > ~/general.txt
+ 1022  bin/mged
+ 1023  make libged > ~/general.txt
+ 1024  bin/mged
+ 1025  make > ~/general.txt
+ 1026  bin/mged
+ 1027  make > ~/general.txt
+ 1028  bin/mged
+ 1029  make > ~/general.txt
+ 1030  bin/mged
+ 1031  cd ~
+ 1032  mkdir brlcad
+ 1033  cd brlcad
+ 1034  cmake ../brlcad-7.22.0 -DBRLCAD_BUNDLED_LIBS=ON -DCMAKE_BUILD_TYPE=Debug
+ 1035  cd ~
+ 1036  mkdir brlcad
+ 1037  cd brlcad
+ 1038  cmake ../brlcad-7.22.0 -DBRLCAD_BUNDLED_LIBS=ON -DCMAKE_BUILD_TYPE=Debug
+ 1039  make
+ 1040  bin/mged
+ 1041  make
+ 1042  bin/mged
+ 1043  make > ~/general.txt
+ 1044  bin/mged
+ 1045  make libged > ~/general.txt
+ 1046  bin/mged
+ 1047  make libged > ~/general.txt
+ 1048  make linged > ~/general.txt
+ 1049  make libged > ~/general.txt
+ 1050  cd ../../include/
+ 1051  grep -n -i "rt_db_internal" *.h
+ 1052  grep -n -i "rt_db_internal" *.h *.c
+ 1053  cd ../../include/
+ 1054  grep -n -i "bu_cmdtab" *.h *.c
+ 1055  grep -n -i "bu_getopt" *.h *.c
+ 1056  grep -n -i "c:dequv" *.h *.c
+ 1057  grep -n -i "mged_cmd" *.h *.c
+ 1058  cd ../src/mged/
+ 1059  grep -n -i "mged_cmd" *.h *.c
+ 1060  grep -n -i "INTERP" *.h *.c
+ 1061  grep -n -i "INTERP" *.h *.c > ~/general.txt
+ 1062  grep -n -i "Tcl_Interp" *.h *.c > ~/general.txt
+ 1063  cd ../../include/
+ 1064  grep -n -i "Tcl_Interp" *.h *.c > ~/general.txt
+ 1065  cd .
+ 1066  cd ../src/mged
+ 1067  grep -n -i "Tcl_Interp" *.h *.c > ~/general.txt
+ 1068  grep -n -i "f_fhelp2" *.h *.c
+ 1069  bin/mged
+ 1070  make libged > ~/general.txt
+ 1071  bin/mged
+ 1072  make libged > ~/general.txt
+ 1073  bin/mged
+ 1074  make libged > ~/general.txt
+ 1075  bin/mged
+ 1076  make mged > ~/general.txt
+ 1077  bin/mged
+ 1078  make mged > ~/general.txt
+ 1079  bin/mged
+ 1080  make mged > ~/general.txt
+ 1081  bin/mged
+ 1082  make mged > ~/general.txt
+ 1083  make libged > ~/general.txt
+ 1084  bin/mged
+ 1085  make libged > ~/general.txt
+ 1086  bin/mged
+ 1087  make libged > ~/general.txt
+ 1088  bin/mged
+ 1089  make libged > ~/general.txt
+ 1090  bin/mged
+ 1091  make libged > ~/general.txt
+ 1092  make libged > ~/general.txt
+ 1093  bin/mged
+ 1094  make libged > ~/general.txt
+ 1095  killall pidgin 
+ 1096  killall firefox
+ 1097  killall mozilla
+ 1098  bin/mged
+ 1099  bin/mged
+ 1100  make libged > ~/general.txt
+ 1101  bin/mged
+ 1102  make libged > ~/general.txt
+ 1103  bin/mged
+ 1104  make libged > ~/general.txt
+ 1105  bin/mged
+ 1106  make libged > ~/general.txt
+ 1107  bin/mged
+ 1108  make libged > ~/general.txt
+ 1109  bin/mged
+ 1110  make libged > ~/general.txt
+ 1111  bin/mged
+ 1112  make libged > ~/general.txt
+ 1113  bin/mged
+ 1114  make libged > ~/general.txt
+ 1115  make libged > ~/general.txt
+ 1116  bin/mged
+ 1117  gdb bin/mged
+ 1118  make libged > ~/general.txt
+ 1119  gdb bin/mged
+ 1120  bin/mged
+ 1121  make libged > ~/general.txt
+ 1122  bin/mged
+ 1123  make libged > ~/general.txt
+ 1124  gdb bin/mged
+ 1125  make libged > ~/general.txt
+ 1126  gdb bin/mged
+ 1127  bin/mged
+ 1128  make libged > ~/general.txt
+ 1129  bin/mged
+ 1130  make libged > ~/general.txt
+ 1131  gdb bin/mged
+ 1132  make libged > ~/general.txt
+ 1133  bin/mged
+ 1134  make libged > ~/general.txt
+ 1135  make libged > ~/general.txt
+ 1136  bin/mged
+ 1137  make libged > ~/general.txt
+ 1138  bin/mged
+ 1139  make libged > ~/general.txt
+ 1140  bin/mged
+ 1141  make libged > ~/general.txt
+ 1142  bin/mged
+ 1143  make libged > ~/general.txt
+ 1144  cd ../brlcad-7.22.0/src/
+ 1145  grep -n -i "bu_getopt" *.h *.c
+ 1146  cd ../include/
+ 1147  grep -n -i "bu_getopt" *.h *.c
+ 1148  cd ../src/mged
+ 1149  grep -n -i "mged_cmd" *.h *.c
+ 1150  cd ../../include/
+ 1151  grep -n -i "mged_cmd" *.h *.c
+ 1152  cd ../src/libged/
+ 1153  grep -n -i "bu_cmd" *.h *.c
+ 1154  grep -n -i "db_lookup" *.h *.c
+ 1155  grep -n -i "status" *.h *.c
+ 1156  grep -n -i "c:dequv" *.h *.c
+ 1157  grep -n -i "mged_cmd" *.h *.c
+ 1158  grep -n -i "_ged_results_append_str" *.h *.c
+ 1159  grep -n -i "help" *.h *.c
+ 1160  grep -n -i "help" *.h *.c > ~/general.txt
+ 1161  grep -n -i "ged_interp" *.h *.c
+ 1162  grep -n -i "base2local" *.h *.c
+ 1163  make libged > ~/general.txt
+ 1164  make libged > ~/general.txt
+ 1165  grep -n -i "funtab" *.h *.c
+ 1166  grep -n -i "INTERP" *.h *.c
+ 1167  grep -n "INTERP" *.h *.c
+ 1168  grep -n "INTERP" *.h *.c > ~/general.txt
+ 1169  grep -n "ged_interp" *.h *.c > ~/general.txt
+ 1170  cd ../../include/
+ 1171  grep -n "ged_interp" *.h *.c > ~/general.txt
+ 1172  grep -n "ged_interp" *.h
+ 1173  cd ../../include/
+ 1174  grep -n "Tcl_AppendResult" *.h
+ 1175  ls
+ 1176  cd ..
+ 1177  cd brlcad-7.22.0/
+ 1178  ls
+ 1179  cd include/
+ 1180  grep -n "Tcl_AppendResult" *.h
+ 1181  cd ../mged
+ 1182  cd ..
+ 1183  cd src/mged/
+ 1184  grep -n "Tcl_AppendResult" *.h *.c
+ 1185  grep -n "Tcl_AppendResult" *.h *.c > ~/general.txt
+ 1186  grep -n "FALSE" *.h *.c
+ 1187  grep -n "CHECK_DBI_NULL" *.h *.c
+ 1188  grep -n "struct db_i" *.h *.c
+ 1189  cd ../../include/
+ 1190  grep -n "struct db_i" *.h *.c
+ 1191  cd ../src/mged/
+ 1192  grep -n "vls_col_item" *.h *.c
+ 1193  grep -n "vls_col_eol" *.h *.c
+ 1194  grep -n "refresh" *.h *.c
+ 1195  grep -n "FOR_ALL_SOLIDS" *.h *.c
+ 1196  cd ../../include/
+ 1197  grep -n "FOR_ALL_SOLIDS" *.h *.c
+ 1198  grep -n "cvt_vlblock_to_solids" *.h
+ 1199  cd ../src/mged/
+ 1200  grep -n "cvt_vlblock_to_solids" *.h
+ 1201  grep -n "cvt_vlblock_to_solids" *.h *.c
+ 1202  grep -n "base2local" *.h *.c
+ 1203  grep -n "Tcl_AppendResult" *.h *.c
+ 1204  cd ../../include/
+ 1205  grep -n "Tcl_AppendResult" *.h *.c
+ 1206  grep -n "Tcl_AppendResult" *.h
+ 1207  cd ../src/mged/
+ 1208  grep -n "Tcl_AppendResult" *.h *.c > ~/general.txt
+ 1209  cd ../../include/
+ 1210  grep -n "f_fhelp" *.h
+ 1211  grep -n "f_fhelp2" *.h
+ 1212  grep -n "f_fhelp2" *.h *.c
+ 1213  cd ../src/mged/
+ 1214  grep -n "f_fhelp2" *.h
+ 1215  grep -n "f_fhelp2" *.h *.c
+ 1216  grep -n "SOLVE_MAX_PRIORITY" *.h *.c
+ 1217  grep -n "base2local" *.h *.c
+ 1218  make libged > ~/general.txt
+ 1219  make libged > ~/general.txt
+ 1220  bin/mged
+ 1221  make libged > ~/general.txt
+ 1222  bin/mged
+ 1223  make libged > ~/general.txt
+ 1224  bin/mged
+ 1225  make libged > ~/general.txt
+ 1226  grep -n "base2local" *.c *.h
+ 1227  grep -n "local2base" *.c *.h
+ 1228  grep -n "bu_bomb" *.c *.h
+ 1229  grep -n "_ged_current_gedp" *.c *.h
+ 1230  cd ../../include/
+ 1231  grep -n "_ged_current_gedp" *.c *.h
+ 1232  cd ../src/libged/
+ 1233  grep -n -i "FOR_ALL_SOLIDS" *.h *.c
+ 1234  cd ../../include
+ 1235  grep -n -i "FOR_ALL_SOLIDS" *.h *.c
+ 1236  cd ../src/mged/
+ 1237  grep -n -i "cvt_vlblock_to_solids" *.h *.c
+ 1238  cd ../../include/
+ 1239  grep -n -i "cvt_vlblock_to_solids" *.h *.c
+ 1240  cd ~
+ 1241  svn checkout https://brlcad.svn.sourceforge.net/svnroot/brlcad/brlcad/trunk brlcad_src
+ 1242  svn rm brlcad_src/src/mged/animedit.c 
+ 1243  svn rm brlcad_src/src/mged/joints.h 
+ 1244  svn add brlcad_src/src/libged/joint.h 
+ 1245  svn add brlcad_src/src/libged/joint.c
+ 1246  svn add brlcad_src/src/libged/columns.c 
+ 1247  cd brlcad_src/
+ 1248  svn diff > ~/ged_joint.patch
+ 1249  bin/mged
+ 1250  make libged > ~/general.txt
+ 1251  bin/mged
+ 1252  make libged > ~/general.txt
+ 1253  bin/mged
+ 1254  make > ~/general.txt
+ 1255  bin/mged
+ 1256  whereis sim.c
+ 1257  sim.c
+ 1258  ls
+ 1259  cd brlcad
+ 1260  ls
+ 1261  cd bin/
+ 1262  ls
+ 1263  cd ..
+ 1264  l
+ 1265  cd doc
+ 1266  ls
+ 1267  gcc -o Recursive_QuickSort.c 
+ 1268  gcc Recursive_QuickSort.c -o rec
+ 1269  gcc -c Recursive_QuickSort.c -o rec
+ 1270  ./rec
+ 1271  ls
+ 1272  sudo chmod rec + x
+ 1273  sudo chmod + x rec
+ 1274  chmod --help
+ 1275  sudo chmod + -x rec
+ 1276  sudo chmod rec +x
+ 1277  sudo chmod a+x rec
+ 1278  ls
+ 1279  ./rec
+ 1280  rec
+ 1281  ./rec
+ 1282  bash rec
+ 1283  cd brlcad
+ 1284  bin/mged
+ 1285  ls
+ 1286  sudo chmod a+x sgi
+ 1287  ls
+ 1288  ./sgi
+ 1289  cd brlcad
+ 1290  ls
+ 1291  ./sgi 
+ 1292  bin/png-fb 
+ 1293  bin/pix-png 
+ 1294  bin/
+ 1295  bin/rt
+ 1296  bin/saveview 
+ 1297  bin/ae
+ 1298  ./sgi 
+ 1299  cd bin
+ 1300  ls
+ 1301  cd brlcad
+ 1302  bin/mged
+ 1303  cd brlcad
+ 1304  bin/mged
+ 1305  pwd
+ 1306  ls
+ 1307  sudo chmod a+x simulate.sh 
+ 1308  ls
+ 1309  ./simulate.sh
+ 1310  loop 1 300 10
+ 1311  sudo apt-get install bash
+ 1312  for i in `seq 1 100 10` ; do echo $i; done
+ 1313  for i in `seq 1 100` ; do echo $i; done
+ 1314  ./simulate.sh
+ 1315  cd brlcad
+ 1316  ./simulate.sh
+ 1317  ./simulate.sh > simulate.txt
+ 1318  ./simulate.sh
+ 1319  sudo apt-get install imagemagick
+ 1320  cd brlcad
+ 1321  bin/rt help
+ 1322  bin/rt
+ 1323  ls
+ 1324  cd bu=in
+ 1325  cd bin
+ 1326  ls
+ 1327  q
+ 1328  cd ..
+ 1329  cd ~
+ 1330  gedit /usr/lib/ImageMagick-6.6.0/config/delegates.xml 
+ 1331  diff /usr/lib/ImageMagick-6.6.0/config/delegates.xml.orig /usr/lib/ImageMagick-6.6.0/config/delegates.xml
+ 1332  sudo gedit /usr/lib/ImageMagick-6.6.0/config/delegates.xml 
+ 1333  bin/rt -o image.pix su.g\sim.c
+ 1334  bin/rt su.g\sim.c
+ 1335  bin/rt su.g/sim.c
+ 1336  bin/rt su.g\'sim.c'
+ 1337  \
+ 1338  bin/rt
+ 1339  bin/rt -o image.pix s1.g\'sim.c'
+ 1340  \
+ 1341  rt -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1342  bin/rt -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1343  ./simulate.sh
+ 1344  sudo ./simulate.sh
+ 1345  bin/rt -a 1 -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1346  bin/rt -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1347  rt -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1348  bin/r-o image.png s1.g sim.c
+ 1349  sudo ./simulate.sh
+ 1350  bin/rt -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1351  bin/rt -M -o image.png s1.g sim.c
+ 1352  sudo ./simulate.sh
+ 1353  bin/rt -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1354  sudo ./simulate.sh
+ 1355  bin/pix-png
+ 1356  bin/rt -e 35 -w 640 -n 480 -o image.png s1.g sim.c
+ 1357  bin/rt
+ 1358  sudo ./simulate.sh
+ 1359  cd brlcad
+ 1360  bin/mged
+ 1361  imagemagick
+ 1362  use -q imagemagick
+ 1363  Magick-config
+ 1364  sudo apt-get install libmagickcore-dev 
+ 1365  sudo apt-get install graphicsmagick-libmagick-dev-compat
+ 1366  use -q imagemagick
+ 1367  Magick-config
+ 1368  Magic++-config
+ 1369  cd brlcad
+ 1370  convert *jpg mymovie.mpg
+ 1371  convert *.jpg mymovie.mpg
+ 1372  man ImageMagick
+ 1373  convert 1
+ 1374  man convert 1
+ 1375  sudo apt-get install ffmpeg
+ 1376  convert -list configure
+ 1377  ls
+ 1378  convert *png mymovie.mpg
+ 1379  ffmpef -version
+ 1380  ffmpeg -version
+ 1381  convert -flags +4mv+aic *png mymovie.mpg 
+ 1382  convert *png mymovie.mpg -flags +4mv+aic
+ 1383  convert *png mymovie.mpg
+ 1384  killall pidgin 
+ 1385  sudo apt-get install gifsicle
+ 1386  ping 8.8.8.8
+ 1387  killall pidgin 
+ 1388  cd brlcad
+ 1389  bin/mged
+ 1390  sudo ./simulate.sh
+ 1391  bin/rt
+ 1392  bin/rt -A
+ 1393  sudo ./simulate.sh
+ 1394  convert *png sim.gif
+ 1395  convert *png sim.mpg
+ 1396  convert image1.png image2.png image3.png ... image115.png sim.mpg
+ 1397  convert image1.png image2.png image3.png image4.png image5.png image115.png sim.mpg
+ 1398  convert image1.png image2.png image3.png image4.png image5.png image115.png sim.mpgconvert image1.png image2.png image3.png image4.png image5.png
+ 1399  image6.png image7.png image8.png image9.png image10.png
+ 1400  image11.png image12.png image13.png image14.png image15.png
+ 1401  image16.png image17.png image18.png image19.png image20.png
+ 1402  image21.png image22.png image23.png image24.png image25.png
+ 1403  image26.png image27.png image28.png image29.png image30.png
+ 1404  image31.png image32.png image33.png image34.png image35.png
+ 1405  image36.png image37.png image38.png image39.png image40.png
+ 1406  image41.png image42.png image43.png image44.png image45.png
+ 1407  image46.png image47.png image48.png image49.png image50.png
+ 1408  image51.png image52.png image53.png image54.png image55.png
+ 1409  image56.png image57.png image58.png image59.png image60.png
+ 1410  image61.png image62.png image63.png image64.png image65.png
+ 1411  image66.png image67.png image68.png image69.png image70.png
+ 1412  image71.png image72.png image73.png image74.png image75.png
+ 1413  image76.png image77.png image78.png image79.png image80.png
+ 1414  image81.png image82.png image83.png image84.png image85.png
+ 1415  image86.png image87.png image88.png image89.png image90.png
+ 1416  image91.png image92.png image93.png image94.png image95.png
+ 1417  image96.png image97.png image98.png image99.png image100.png
+ 1418  image101.png image102.png image103.png image104.png image105.png
+ 1419  image106.png image107.png image108.png image109.png image110.png
+ 1420  image111.png image112.png image113.png image114.png image115.png sim.mpgconvert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image95.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png sim.mpg
+ 1421  image111.png image112.png image113.png image114.png image115.png sim.mpgconvert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image95.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png sim.mpg
+ 1422  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image95.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png sim.mpg
+ 1423  convert sim.gif -dither none -deconstruct -layers optimize -matte -depth 8 \( -clone 0--1 -background none +append -quantize transparent  -colors 32  -unique-colors -write mpr:cmap +delete \) -map mpr:cmap optimized_sim.gif
+ 1424  convert sim.gif -dither none -deconstruct -layers optimize -matte -depth 8 ( -clone 0--1 -background none +append -quantize transparent  -colors 32  -unique-colors -write mpr:cmap +delete ) -map mpr:cmap optimized_sim.gif
+ 1425  convert sim.gif -dither none -deconstruct -layers optimize -matte -depth 8 -clone 0--1 -background none +append -quantize transparent  -colors 32  -unique-colors -write mpr:cmap +delete -map mpr:cmap optimized_sim.gif
+ 1426  convert sim.gif -deconstruct sim_1.gif
+ 1427  convert sim.gif -deconstruct -layers optimize sim_1.gif
+ 1428  convert sim.gif -matte -deconstruct -layers optimizePlus sim_1.gif
+ 1429  convert sim.gif -deconstruct -layers optimize -matte -colors 31 sim_1.gif
+ 1430  convert sim.gif -dither none -deconstruct -layers optimize -matte -depth 8 -clone 0--1 -background none +append -quantize transparent  -colors 32  -unique-colors -write mpr:cmap +delete -map mpr:cmap optimized_sim.gif
+ 1431  gifsicle sim.gif > sim_out.gif
+ 1432  convert sim.gif -dither none -matte -depth 8 -deconstruct  -layers optimizePlus -colors 32 sim1.gif
+ 1433  convert sim.gif -dither none -depth 8 -deconstruct  -layers optimizePlus -colors 32 sim1.gif
+ 1434  convert sim.gif -dither none -matte -depth 8 -deconstruct  -layers optimize -colors 32 sim1.gif
+ 1435  convert sim.gif -dither none -matte -depth 8 -deconstruct  -layers optimizePlus -colors 32 sim1.gif
+ 1436  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png sim.mpg
+ 1437  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png sim.gif
+ 1438  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png sim.mpg
+ 1439  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png sim.gif
+ 1440  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png sim.mpg
+ 1441  cd brlcad
+ 1442  ls
+ 1443  sudo chmod a+x simu.sh
+ 1444  sudo ./simu.sh
+ 1445  bin/rt
+ 1446  bin/rt -W
+ 1447  killall firefox
+ 1448  cd old_frames/
+ 1449  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image158.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png sim.gif
+ 1450  cd simul/
+ 1451  ls
+ 1452  sudo ./simu.sh
+ 1453  bin/rt -F/dev/X -a 35 -e 15 sim.g gp.r cube.r
+ 1454  bin/rt -F/dev/X -a 35 -e 15 s3.g gp.r cube.r
+ 1455  xdpyinfo | grep dimensions
+ 1456  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image108.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png sim.gif
+ 1457  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image108.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png sim.mpg
+ 1458  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image108.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png sim_total.mpg
+ 1459  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image108.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png sim_total.gif
+ 1460  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image108.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png sim_set.gif
+ 1461  convert *png simulate.gif
+ 1462  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image158.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png sim_set.gif
+ 1463  cd brlcad
+ 1464  bin/mged
+ 1465  bin/rt -F/dev/X -a 35 -e 15 s3.g gp.r cube.r
+ 1466  bin/rt help
+ 1467  help bin/rt
+ 1468  bin/mged
+ 1469  q
+ 1470  bin/rt -F/dev/X -a 35 -e 15 -W -F5 s3.g gp.r cube.r
+ 1471  bin/rt -a 35 -e 15 -W -F5 s3.g gp.r cube.r
+ 1472  sudo ./simulate.sh
+ 1473  man bin/rt
+ 1474  bin/rt man
+ 1475  man bin/rt
+ 1476  man bin/rtedge
+ 1477  bin/brlman fbserv
+ 1478  brlman
+ 1479  bin/brlman rtedge
+ 1480  sudo ./simu.sh
+ 1481  bin/rt -a 35 -e 15 -o image.png s1.g
+ 1482  bin/rt -a 35 -e 15 -o image.png s1.g sim.c
+ 1483  bin/rt -a 35 -e 15 -o image.png s1.g sim.c sim_gp.r sim_cube.r
+ 1484  bin/rt -a 35 -e 15 -o image.png s1.g sim_gp.r sim_cube.r
+ 1485  sudo ./simu.sh
+ 1486  bin/rt -a 35 -e 15 -o image.png s1.g sim_gp.r sim_cube.r
+ 1487  bin/rt -a 35 -e 15 -o image1.png s1.g sim_gp.r sim_cube.r
+ 1488  sudo ./simu.sh
+ 1489  bin/mged simulate 1 s1.g
+ 1490  bin/mged s1.g simulate 1
+ 1491  bin/rt -a 35 -e 15 -o image1.png s1.g sim_gp.r sim_cube.r
+ 1492  bin/mged s1.g simulate 2
+ 1493  bin/rt -a 35 -e 15 -o image2.png s1.g sim_gp.r sim_cube.r
+ 1494  bin/mged s1.g simulate 50
+ 1495  bin/rt -a 35 -e 15 -o image50.png s1.g sim_gp.r sim_cube.r
+ 1496  ls
+ 1497  l simu.sh
+ 1498  ls simu.sh
+ 1499  sudo ./simu.sh
+ 1500  sudo ./simulate.sh
+ 1501  bin/rt -a 35 -e 15 -o test.png s3.g sim_gp.r sim_cube.r
+ 1502  bin/rt -a 35 -e 15 -o test2.png s3.g gp.r cube.r
+ 1503  bin/rt -a 35 -e 15 -o test3.pix s3.g gp.r cube.r
+ 1504  bin/pix-png -o test3.png test3.pix
+ 1505  bin/rt -a 35 -e 15 s3.g gp.r cube.r
+ 1506  bin/rt -F/dev/oglp -a 35 -e 15 s3.g gp.r cube.r
+ 1507  bin/rt -W -a 35 -e 15 -o test4.png s3.g gp.r cube.r
+ 1508  sudo ./simu.sh
+ 1509  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image158.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png image191.png sim.gif
+ 1510  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image158.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png image191.png sim.mpg
+ 1511  pwd
+ 1512  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image158.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png image190.png sim.gif
+ 1513  cd ..
+ 1514  cd brlcad
+ 1515  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image158.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png image190.png sim.gif
+ 1516  convert image1.png image2.png image3.png image4.png image5.png image6.png image7.png image8.png image9.png image10.png image11.png image12.png image13.png image14.png image15.png image16.png image17.png image18.png image19.png image20.png image21.png image22.png image23.png image24.png image25.png image26.png image27.png image28.png image29.png image30.png image31.png image32.png image33.png image34.png image35.png image36.png image37.png image38.png image39.png image40.png image41.png image42.png image43.png image44.png image45.png image46.png image47.png image48.png image49.png image50.png image51.png image52.png image53.png image54.png image55.png image56.png image57.png image58.png image59.png image60.png image61.png image62.png image63.png image64.png image65.png image66.png image67.png image68.png image69.png image70.png image71.png image72.png image73.png image74.png image75.png image76.png image77.png image78.png image79.png image80.png image81.png image82.png image83.png image84.png image85.png image86.png image87.png image88.png image89.png image90.png image91.png image92.png image93.png image94.png image96.png image97.png image98.png image99.png image100.png image101.png image102.png image103.png image104.png image105.png image106.png image107.png image108.png image109.png image110.png image111.png image112.png image113.png image114.png image115.png image116.png image117.png image118.png image119.png image120.png image121.png image122.png image123.png image124.png image125.png image126.png image127.png image128.png image129.png image130.png image131.png image132.png image133.png image134.png image135.png image136.png image137.png image138.png image139.png image140.png image141.png image142.png image143.png image144.png image145.png image146.png image147.png image148.png image149.png image150.png image151.png image152.png image153.png image154.png image155.png image156.png image157.png image158.png image159.png image160.png image161.png image162.png image163.png image164.png image165.png image166.png image167.png image168.png image169.png image170.png image171.png image172.png image173.png image174.png image175.png image176.png image177.png image178.png image179.png image180.png image181.png image182.png image183.png image184.png image185.png image186.png image187.png image188.png image189.png image190.png image190.png sim.mpg
+ 1517  bin/fb-png -F5 -w 360 -n 640 image$i.png
+ 1518  bin/fb-png
+ 1519  bin/fb-png -F5 -w 360 -n 640 image$i.png
+ 1520  cd ..
+ 1521  mkdir brlcad
+ 1522  cd brlcad
+ 1523  cmake ../brlcad-7.22.0 -DBRLCAD_BUNDLED_LIBS=ON -DCMAKE_BUILD_TYPE=Debug
+ 1524  make
+ 1525  make benchmark
+ 1526  sudo ./simulate.sh
+ 1527  pwd
+ 1528  sudo ./simulate.sh
+ 1529  bin/brlman rt
+ 1530  sudo ./simulate.sh
+ 1531  bin/brlman fbserv
+ 1532  sudo ./simulate.sh
+ 1533  cd brlcad
+ 1534  bin/mged
+ 1535  cd ..
+ 1536  cd brlcad
+ 1537  bin/mged
+ 1538  sudo ./simulate.sh
+ 1539  bin/mged s3.g ls
+ 1540  bin/mged s3.g ls -l
+ 1541  sudo ./simulate.sh
+ 1542  bin/ -W 360 -N 640 5 /dev/X &
+ 1543  bin/rt -a 35 -e 15 - w 360 -n 640 -W -F5 s3.g cube.r
+ 1544  bin/rt -W -F5 s3.g cube.r
+ 1545  bin/rt -w 360 -n 640 -W -F5 s3.g cube.r
+ 1546  bin/rtedge -W -F5 s3.g cube.r
+ 1547  bin/rtedge -w 360 -n 640 -W -F5 s3.g cube.r
+ 1548  bin/rtedge -w 360 -n 640 -W -F5 -c "set ov=1" s3.g cube.r
+ 1549  bin/fb-png -w 360 -n 640 -F5 image.png 
+ 1550  killall bin/fbserv
+ 1551  bin/fbserv -W 360 -N 640 5 /dev/X &
+ 1552  bin/rt -w 360 -n 640 -W -F5 s3.g sim_gp.r
+ 1553  bin/rtedge -w 360 -n 640 -W -F5 -c "set ov=1" s3.g sim_gp.r
+ 1554  bin/fb-png -w 360 -n 640 -F5 image.png 
+ 1555  kill `ps auxwww|grep [f]bserv | awk '{print $2}'`
+ 1556  sudo ./simulate.sh
+ 1557  bin/fbserv -W 360 -N 640 5 /dev/X &
+ 1558  bin/rt -w 360 -n 640 -W -F5 s3.g sim_gp.r sim_cube.r
+ 1559  bin/rtedge -w 360 -n 640 -W -F5 -c "set ov=1" s3.g sim_gp.r sim_cube.r
+ 1560  bin/fb-png -w 360 -n 640 -F5 image.png 
+ 1561  bin/fb-png -w 360 -n 640 -F5 imaget.png 
+ 1562  kill `ps auxwww|grep [f]bserv | awk '{print $2}'`
+ 1563  bin/fbserv -W 360 -N 640 5 /dev/X &
+ 1564  sudo ./simulate.sh
+ 1565  bin/fbserv -W 360 -N 640 5 /dev/X &
+ 1566  bin/rt -w 360 -n 640 -W -F5 s3.g sim_gp.r sim_cube.r
+ 1567  bin/rtedge -w 360 -n 640 -W -F5 -c "set ov=1" s3.g sim_gp.r sim_cube.r
+ 1568  kill `ps auxwww|grep [f]bserv | awk '{print $2}'`
+ 1569  bin/fbserv -W 360 -N 640 5 /dev/X &
+ 1570  bin/rt -w 360 -n 640 -W -F5 s3.g sim_gp.r sim_cube.r
+ 1571  bin/rtedge -w 360 -n 640 -W -F5 -c "set ov=1" s3.g sim_gp.r sim_cube.r
+ 1572  kill `ps auxwww|grep [f]bserv | awk '{print $2}'`
+ 1573  bin/fbserv -W 360 -N 640 5 /dev/X &
+ 1574  bin/rt -w 360 -n 640 -W -F5 s3.g sim_gp.r sim_cube.r
+ 1575  bin/rtedge -w 360 -n 640 -W -F5 -c "set ov=1" s3.g sim_gp.r sim_cube.r
+ 1576  pwd
+ 1577  sudo ./simulate.sh
+ 1578  pwd
+ 1579  sudo chmod a+x sil.sh
+ 1580  sudo ./sil.sh
+ 1581  bin/fbserv -W 360 -N 640 5 /dev/X &
+ 1582  bin/rt -M -w 360 -n 640 -W -F5 s3.g sim_gp.r sim_cube.r
+ 1583  bin/mged
+ 1584  cd brlcad
+ 1585  bin/mged
+ 1586  pwd
+ 1587  ls
+ 1588  gcc -c btree.c -o btree.o
+ 1589  ./btree.o
+ 1590  sudo ./btree.o
+ 1591  ls
+ 1592  sudo chmod a+x btree.o
+ 1593  ./btree.o
+ 1594  ls
+ 1595  run btree.o
+ 1596  ./btree
+ 1597  ./btree.o
+ 1598  rm btree.o
+ 1599  gcc -Wall -W -Werror btree.c -o tree
+ 1600  chmod +x btree
+ 1601  chmod +x tree
+ 1602  ./tree
+ 1603  gcc -Wall -W -Werror btree.c -o tree
+ 1604  ./tree
+ 1605  gcc -Wall -W -Werror linkedList.c -o dllist
+ 1606  ./dllist 
+ 1607  sudo apt-get install valgrind
+ 1608  killall pidgin 
+ 1609  cd brlcad
+ 1610  bin/mgef
+ 1611  bin/mged
+ 1612  make mged
+ 1613  cd brlcad-7.22.0/
+ 1614  cd ..
+ 1615  cd brlcad
+ 1616  make mged
+ 1617  killall mged
+ 1618  make mged
+ 1619  killall mged
+ 1620  make mged
+ 1621  killall mged
+ 1622  make mged
+ 1623  gdb bin/mged
+ 1624  killall mged
+ 1625  make mged
+ 1626  make mged
+ 1627  cd brlcad
+ 1628  make mged
+ 1629  make mged > compile.txt
+ 1630  make mged > compile.txt
+ 1631  make mged
+ 1632  make libged
+ 1633  make mged
+ 1634  killall mged
+ 1635  make mged
+ 1636  killall mged
+ 1637  make mged
+ 1638  killall mged
+ 1639  make mged
+ 1640  killall mged
+ 1641  make mged
+ 1642  killall mged
+ 1643  make mged
+ 1644  make mged
+ 1645  gdb bin/mged
+ 1646  make mged
+ 1647  gdb bin/mged
+ 1648  bin/mged
+ 1649  sudo apt-get install cdt
+ 1650  sudo apt-get install eclipse-cdt
+ 1651  ls
+ 1652  sudo pppoeconf
+ 1653  ping 8.8.8.8
+ 1654  sudo ifconfig
+ 1655  sudo ifconfig eth0 up
+ 1656  ping 8.8.8.8
+ 1657  sudo pppoeconf
+ 1658  make libged
+ 1659  cd Desktop/
+ 1660  svn checkout https://brlcad.svn.sourceforge.net/svnroot/brlcad/brlcad/trunk brlcad
+ 1661  cd Downloads/
+ 1662  cd brlcad-7.22.0/
+ 1663  cd src
+ 1664  grep -R VMOVE 
+ 1665  ls
+ 1666  cd libged
+ 1667  grep -R -i *.c *.h vmove
+ 1668  grep -R -i vmove *.c *.h
+ 1669  cd ..
+ 1670  grep -R -i vmove *.c *.h
+ 1671  ls
+ 1672  cd ..
+ 1673  cd include/
+ 1674  grep -R -i vmove *.c *.h
+ 1675  sudo ifconfig
+ 1676  sudo pppoeconf
+ 1677  ping www.google.com
+ 1678  ping 8.8.8.8
+ 1679  sudo pppoeconf
+ 1680  make libged
+ 1681  sudo apt-get install flash
+ 1682  sudo apt-get install flashplugin-installer
+ 1683  killall firefox
+ 1684  ping 8.8.8.8
+ 1685  sudo pppoeconf
+ 1686  ping 8.8.8.8
+ 1687  ifconfig
+ 1688  route -n
+ 1689  cat /etc/resolv.conf
+ 1690  sudo apt-get install iproute2
+ 1691  sudo apt-get install iproute
+ 1692  ethtool
+ 1693  sudo apt-get install ethtool
+ 1694  ethtool
+ 1695  ethtool $interface
+ 1696  ethtool eth1
+ 1697  ethtool eth01
+ 1698  sudo apt-get install packettraacer
+ 1699  chmod a+x PacketTracer533_i386_installer-rpm.bin 
+ 1700  bash ./PacketTracer533_i386_installer-rpm.bin 
+ 1701  sudo bash ./PacketTracer533_i386_installer-rpm.bin 
+ 1702  y
+ 1703  Y
+ 1704  sudo bash ./PacketTracer533_i386_installer-rpm.bin 
+ 1705  ifconfig
+ 1706  cd PacketTracer53/
+ 1707  chmod a+c install 
+ 1708  chmod a+x install 
+ 1709  sudo bash ./install 
+ 1710  packettracer
+ 1711  ip link
+ 1712  ip link show
+ 1713  packettracer
+ 1714  cd Desktop/
+ 1715  svn co https://gimpact.svn.sourceforge.net/svnroot/gimpact gimpact 
+ 1716  svn co https://github.com/elf11/newRepo/blob/master/OanaNiculaescu.pdf elf
+ 1717  svn co https://github.com/elf11/newRepo elf
+ 1718  cd brlcadS
+ 1719  make libged
+ 1720  make mged
+ 1721  svn checkout https://brlcad.svn.sourceforge.net/svnroot/brlcad/brlcad/trunk brlcadSvn
+ 1722  svn update https://brlcad.svn.sourceforge.net/svnroot/brlcad/brlcad/trunk brlcadSvn
+ 1723  svn co https://sourceforge.net/projects/waffles/files/waffles/2012-08-31/ waffles
+ 1724  cd ..
+ 1725  sudo apt-get install libsdl1.2-dev freeglut3-dev libx11-dev libssl-dev
+ 1726  cd waffles/
+ 1727  cd src/
+ 1728  sudo make install
+ 1729  cd ..
+ 1730  cd demos/
+ 1731  make opt
+ 1732  cd ..
+ 1733  cd brlcadF
+ 1734  cmake ../brlcadSvn/ -DBRLCAD_BUNDLED_LIBS=ON -DCMAKE_BUILD_TYPE=Debug
+ 1735  make
+ 1736  make benchmark
+ 1737  make mged
+ 1738  killall firefox
+ 1739  make mge
+ 1740  killall mged
+ 1741  make mged
+ 1742  killall mged
+ 1743  make mged
+ 1744  killall mged
+ 1745  make mged
+ 1746  killall mged
+ 1747  make mged
+ 1748  killall mged
+ 1749  killall firefox
+ 1750  make mged
+ 1751  killall firefox
+ 1752  killall mged
+ 1753  make mged
+ 1754  make mged
+ 1755  cd ..
+ 1756  cd brlcadSvn/
+ 1757  ls
+ 1758  cd src/
+ 1759  ls
+ 1760  cd librt
+ 1761  grep -R -i "rt_defoverlap" *.c *.h *.cpp
+ 1762  grep -R -i -n "rt_defoverlap" *.c *.h *.cpp
+ 1763  grep -R -i -n "struct application" *.c *.h *.cpp
+ 1764  cd ../../include/
+ 1765  grep -R -i -n "struct application" *.c *.h *.cpp
+ 1766  grep -R -i -n "define struct application" *.c *.h *.cpp
+ 1767  grep -R -i -n "struct application" *.c *.h *.cpp
+ 1768  cd ../src/
+ 1769  grep -R -i -n "struct application" *.c *.h *.cpp
+ 1770  grep -R -i -n "struct application"
+ 1771  cd librt
+ 1772  grep -R -i -n "struct application" *.c *.h *.cpp
+ 1773  grep -R -i -n "rt_defoverlap" *.h *.c *.cpp
+ 1774  cd ..
+ 1775  ls
+ 1776  cd adrt
+ 1777  grep -R -i -n "rt_defoverlap" *.h *.c *.cpp
+ 1778  ls
+ 1779  cd..
+ 1780  cd ..
+ 1781  cd remrt
+ 1782  cd ..
+ 1783  cd rt
+ 1784  ls
+ 1785  grep -R -i -n "rt_defoverlap" *.h *.c *.cpp
+ 1786  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1787  cd ..
+ 1788  cd remrt
+ 1789  ls
+ 1790  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1791  cd ..
+ 1792  ls
+ 1793  cd anim
+ 1794  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1795  cd ../archer/
+ 1796  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1797  ls
+ 1798  cd ..
+ 1799  cd brlman/
+ 1800  ls
+ 1801  cd..
+ 1802  cd ../external/
+ 1803  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1804  ls
+ 1805  cd 
+ 1806  ls
+ 1807  cd brlcadSvn/src/
+ 1808  ls
+ 1809  cd libbu/
+ 1810  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1811  ls
+ 1812  cd ../libdm/
+ 1813  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1814  cd 
+ 1815  cd brlcadSvn/src/
+ 1816  ls
+ 1817  cd librtserver/
+ 1818  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1819  ls
+ 1820  cd ..
+ 1821  cd nirt
+ 1822  grep -R -i -n "rt_defoverlap" *.h *.c
+ 1823  cd ../..
+ 1824  waffles
+ 1825  waffles_generate
+ 1826  waffles_demo
+ 1827  waffles_demos
+ 1828  demo
+ 1829  waffles_generate crane
+ 1830  waffles_generate
+ 1831  waffles_generate cube 4
+ 1832  waffles_wizard
+ 1833  waffles_generate
+ 1834  waffles manifold
+ 1835  waffles usage
+ 1836  waffles_generate manifold
+ 1837  waffles_generate usage
+ 1838  waffles_generate cube 4
+ 1839  waffles_generate cube 4 > cube.txt
+ 1840  cd 
+ 1841  skype
+ 1842  cd Downloads/
+ 1843  mkdir brlcad
+ 1844  cd brlcad
+ 1845  cmake ../brlcad-7.22.0/ -DBRLCAD_BUNDLED_LIBS=ON -DCMAKE_BUILD_TYPE=Debug
+ 1846  make
+ 1847  make benchmark
+ 1848  bin/mgged
+ 1849  bin/mged
+ 1850  cd ../brlcadSvn/
+ 1851  cd src
+ 1852  cd libged/
+ 1853  ls
+ 1854  grep -R -i unused *.c *.h 
+ 1855  ping 8.8.8.8
+ 1856  cd brlcadF
+ 1857  bin/mged
+ 1858  cd 
+ 1859  sudo apt-get install git
+ 1860  make mged
+ 1861  ping 8.8.8.8
+ 1862  make mged
+ 1863  svn update https://brlcad.svn.sourceforge.net/svnroot/brlcad/brlcad/trunk brlcadSvn
+ 1864  svn diff > ~/simulate.patch
+ 1865  cd brlcadSv
+ 1866  cd brlcadSvn/
+ 1867  svn diff > ~/simulate.patch
+ 1868  cd 
+ 1869  git init
+ 1870  git add Work.txt
+ 1871  git add pic_testing
+ 1872  git add simulate.patch
+ 1873  git commit -m "Simulate command - the way it looks like right now, some pictures from the testing without the callbacks and what has been done the last 2 weeks for the project"
+ 1874  git remote add origin https://github.com/elf11/brlcad.git
+ 1875  git push -u origin master
+ 1876  git add brl_cad_screens
+ 1877  git commit -m "various screencaps taken while trying to find out why the overlap wasn't found for the simulate command"
+ 1878  git remote add origin https://github.com/elf11/brlcad.git
+ 1879  git remote add o https://github.com/elf11/brlcad.git
+ 1880  git push -u origin master
+ 1881  ping 8.8.8.8
+ 1882  make
+ 1883  cd bullet/trunk/Demos/BasicDemo/
+ 1884  make
+ 1885  cd bullet/trunk/Demos/BasicDemo/
+ 1886  make
+ 1887  g++ -I/usr/local/include/bullet main.cpp -L/usr/local/lib -lBulletDynamics -lBulletCollision -lLinearMath -o out
+ 1888  make
+ 1889  ./AppBasicDemo 
+ 1890  gdb AppBasicDemo 
+ 1891  make
+ 1892  gdb AppBasicDemo 
+ 1893  make
+ 1894  ./AppBasicDemo 
+ 1895  make
+ 1896  ./AppBasicDemo 
+ 1897  make
+ 1898  ./AppBasicDemo 
+ 1899  make
+ 1900  ./AppBasicDemo 
+ 1901  make
+ 1902  ./AppBasicDemo 
+ 1903  ./AppBasicDemo > out.txt
+ 1904  make
+ 1905  ./AppBasicDemo > out.txt
+ 1906  make
+ 1907  ./AppBasicDemo > out.txt
+ 1908  make
+ 1909  ./AppBasicDemo > out.txt
+ 1910  make
+ 1911  ./AppBasicDemo > out.txt
+ 1912  make
+ 1913  ./AppBasicDemo > out.txt
+ 1914  make
+ 1915  ./AppBasicDemo > out.txt
+ 1916  make
+ 1917  ./AppBasicDemo > out.txt
+ 1918  make
+ 1919  ./AppBasicDemo > out.txt
+ 1920  make
+ 1921  ./AppBasicDemo > out.txt
+ 1922  make
+ 1923  ./AppBasicDemo > out.txt
+ 1924  make
+ 1925  ./AppBasicDemo
+ 1926  make
+ 1927  ./AppBasicDemo
+ 1928  make
+ 1929  ./AppBasicDemo
+ 1930  make
+ 1931  ./AppBasicDemo
+ 1932  make
+ 1933  ./AppBasicDemo
+ 1934  killall pidgin 
+ 1935  sudo apt-get install python-gpgme
+ 1936  ./AppBasicDemo 
+ 1937  make
+ 1938  ./AppBasicDemo 
+ 1939  ./AppBasicDemo > result.txt
+ 1940  pwd
+ 1941  git add BasicDemo/
+ 1942  git remote add origin https://github.com/elf11/brlcad.git
+ 1943  git remote add o https://github.com/elf11/brlcad.git
+ 1944  git remote add or https://github.com/elf11/brlcad.git
+ 1945  git commit -m "bullet standalone simulation"
+ 1946  git push -u or master
+ 1947  dropbox
+ 1948  dropboxd
+ 1949  ./dropboxd
+ 1950  ~/.dropbox-dist/dropboxd
+ 1951  ~/dropboxd
+ 1952  ~/.dropboxd
+ 1953  whereis dropboxd
+ 1954  dropboxd
+ 1955  cd Downloads/
+ 1956  cd nautilus-dropbox-1.4.0/
+ 1957  dropboxd
+ 1958  ~/.dropbox-dist/dropboxd
+ 1959  service dropbox start
+ 1960  cd
+ 1961  wget -0 - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+ 1962  wget "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf
+ 1963  wget "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf
+ 1964  ls
+ 1965  tar -xzf download?plat=lnx.x86_64
+ 1966  ls
+ 1967  pwd
+ 1968  cd Downloads/
+ 1969  tar xjf ./nautilus-dropbox-1.4.0.tar.bz2
+ 1970  cd ./nautilus-dropbox-1.4.0/; ./configure; make; make install;
+ 1971  make
+ 1972  make install
+ 1973  ./configure
+ 1974  make
+ 1975  cmake
+ 1976  make
+ 1977  sudo apt-get install libnautilus-extension-dev
+ 1978  ./configure
+ 1979  make
+ 1980  sudo apt-get install dev-python/docutils
+ 1981  sudo apt-get install docutils
+ 1982  cd ..
+ 1983  make
+ 1984  pwd
+ 1985  ls
+ 1986  sudo apt-get install ebuild
+ 1987  sudo apt-get install libnotify-dev
+ 1988  sudo apt-get install python-docutils 
+ 1989  cd nautilus-dropbox-1.4.0/
+ 1990  ./configure
+ 1991  make
+ 1992  sudo make install
+ 1993  killall nautilus 
+ 1994  dropbox
+ 1995  killall nautilus 
+ 1996  nautilus
+ 1997  killall nautilus 
+ 1998  nautilus
+ 1999  killall nautilus 
+ 2000  nautilus
+ 2001  cd bullet
+ 2002  cd trunk/Demos/BasicDemo/
+ 2003  make 
+ 2004  ./AppBasicDemo 
+ 2005  make 
+ 2006  ./AppBasicDemo 
+ 2007  make 
+ 2008  ./AppBasicDemo 
+ 2009  make 
+ 2010  ./AppBasicDemo 
+ 2011  ./AppBasicDemo > result.txt
+ 2012  history
+ 2013  history > command.txt

@@ -8,6 +8,7 @@
 
 bool gStepSim = false;
 //bool gStepSim = true;
+int i = 0;
 
 void BasicDemo::specialKeyboard(int key, int x, int y)
 {
@@ -37,8 +38,10 @@ void BasicDemo::clientMoveAndDisplay()
 	{
 		specialKeyboard(key, x, y);
 		if (gStepSim == true)
-		{			
+		{	
+			printf("Simulation step is %d\n", i);		
 			m_dynamicsWorld->stepSimulation(ms / 1000000.f);
+			i += 1;
 		}
 		gStepSim = false;
 		//optional but useful: debug drawing

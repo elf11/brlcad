@@ -32,13 +32,16 @@ void BasicDemo::clientMoveAndDisplay()
 
 	int key;
 	int x = 0, y = 0;
-	///step the simulation
+	int i = 0;
+	//step the simulation
 	if (m_dynamicsWorld)
 	{
 		specialKeyboard(key, x, y);
 		if (gStepSim == true)
-		{			
+		{	
+			printf("Simulation step is %d\n", i);		
 			m_dynamicsWorld->stepSimulation(ms / 1000000.f);
+			i += 1;
 		}
 		gStepSim = false;
 		//optional but useful: debug drawing

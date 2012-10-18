@@ -37,8 +37,6 @@ void MyAlgo::processCollision (const btCollisionObjectWrapper* body0Wrap,const b
 	const btBoxShape* box0 = (btBoxShape*)body0Wrap->getCollisionShape();
 	const btBoxShape* box1 = (btBoxShape*)body1Wrap->getCollisionShape();
 
-	printf("point 1 = (%f,%f,%f) point 2 = (%f, %f, %f) point 3 = (%f,%f,%f) point 4 = (%f, %f, %f)\n", m_manifoldPtr[0], m_manifoldPtr[1], m_manifoldPtr[3], m_manifoldPtr[4]);
-
 	/// report a contact. internally this will be kept persistent, and contact reduction is done
 	resultOut->setPersistentManifold(m_manifoldPtr);
 #ifndef USE_PERSISTENT_CONTACTS	
@@ -52,6 +50,20 @@ void MyAlgo::processCollision (const btCollisionObjectWrapper* body0Wrap,const b
 
 	btBoxBoxDetector detector(box0,box1);
 	detector.getClosestPoints(input,*resultOut,dispatchInfo.m_debugDraw);
+
+	int n, i;
+	n = m_manifoldPtr->getNumContacts();
+
+	for (i = 0; i < n; i++) {
+		btManifoldPoint m = m_manifoldPtr->getContactPoint(i);
+		const btVector3& point1 = m.getPositionWorldOnA();
+		const btVector3& point2 = m.getPositionWorldOnB();
+		printf("point A = (%f,%f,%f) point B = (%f,%f,%f)\n", point1.x(), point1.y(),point1.z(),point2.x(), point2.y(),point2.z());
+		btVector3 normal = m.m_normalWorldOnB;
+		printf("normal from B to A is = (%f,%f,%f)\n", normal.x(), normal.y(), normal.z());
+		const btScalar depth = m.getDistance();
+		printf("the penetration distance is %f\n", depth);
+	}
 
 #ifdef USE_PERSISTENT_CONTACTS
 	//  refreshContactPoints is only necessary when using persistent contact points. otherwise all points are newly added
